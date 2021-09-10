@@ -10,11 +10,12 @@
 /*画像ブロック*/
 #mainimg {
 	clear: left;
+	overflow: hidden;
 	text-indent: -9999px;
 	position: absolute;
-	top: 50px;	/*style.cssのheaderのheightと合わせる*/
-	left: 0px;
-	width: 100%;
+	top: 80px;	/*style.cssのheaderのheightと合わせる*/
+	left: 3%;
+	width: 94%;
 	height: 500px;	/*スライドショーの高さ*/
 }
 /*画像の共通設定*/
@@ -33,17 +34,17 @@
 }
 /*１枚目*/
 .slide1 {
-	background: url(../images/1.jpg) repeat-x center center / cover;
+	background: url(../images/lastspace11.jpg) repeat-x center center / cover;
 	animation-name: slide1;		/*keyframes.cssで使う@keyframesの指定*/
 }
 /*２枚目*/
 .slide2 {
-	background: url(../images/2.jpg) repeat-x center center / cover;
+	background: url(../images/lastspace11.jpg) repeat-x center center / cover;
 	animation-name: slide2;		/*keyframes.cssで使う@keyframesの指定*/
 }
 /*３枚目*/
 .slide3 {
-	background: url(../images/3.jpg) no-repeat center center / cover;
+	background: url(../images/lastspace12.jpg) no-repeat center center / cover;
 	animation-name: slide3;		/*keyframes.cssで使う@keyframesの指定*/
 }
 

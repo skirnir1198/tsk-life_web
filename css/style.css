@@ -196,7 +196,8 @@ ul.icon img {
 ---------------------------------------------------------------------------*/
 /*ボックスの設定*/
 #contents .list {
-	position: relative;overflow: hidden;
+	position: relative;
+	overflow: hidden;
 	display: flex;
 	align-items: center;
 	background: #000;	/*背景色*/
@@ -637,6 +638,7 @@ body.s-n #sub,body.s-n #footermenu {display: none;}
 	font-size: 25px;
 	width: 230px;
 	float: left;
+	color: white;
 }
 
 a {
@@ -654,11 +656,72 @@ h6 {
 	margin: 0;
 }
 
+.overview_tbl {
+	border: 0px none;
+	width: 100%;
+	table-layout: fixed;
+	margin: 0 0 20px;
+	background: #ececec;	/*背景色*/
+}
+
+.overview_left {
+	width: 35%;
+	padding: 20px;
+}
+
+.overview_right {
+	width: 65%;
+	padding: 20px;
+	text-align: left;
+	vertical-align: top;
+}
+
 .recruit_tbl {
 	border: 0px none;
 	width: 100%;
 	table-layout: fixed;
 	margin: 0 0 20px;
-	background: #0074ea;	/*背景色*/
+	background: #ececec;	/*背景色*/
 }
 
+.recruit_left {
+	width: 35%;
+}
+
+.recruit_right {
+	width: 65%;
+	padding: 20px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.recruit_img {
+	width: 100%;
+	float: left;
+	margin: 20px;
+}
+
+.recruit_text {
+	color: #222;
+}
+
+.bold_text {
+	font-size: 30px;
+}
+
+.contents_text {
+	margin: 20px 0;
+}
+
+#first_contents {
+	margin-top: 40px;
+}
+
+.overview_img {
+	width: 100%;
+}
+
+.overview_img2 {
+	width: 100%;
+	max-width: 200px;
+}
