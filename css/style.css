@@ -226,7 +226,7 @@ ul.icon img {
 #contents .list .text {
 	float: right;	/*右に回り込み*/
 	width: 64%;		/*幅*/
-	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
+	margin: 0 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
 }
 
 /*btn1
@@ -724,4 +724,8 @@ h6 {
 .overview_img2 {
 	width: 100%;
 	max-width: 200px;
+}
+
+.text_space {
+	margin: 30px 0;
 }
