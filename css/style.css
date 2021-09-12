@@ -123,7 +123,7 @@ li:hover ul.ddmenu {
 ---------------------------------------------------------------------------*/
 /*アイコン全体を囲むブロック*/
 ul.icon {
-	float: right;	/*アイコンブロックを右に回り込み*/
+	float: center;	/*アイコンブロックを右に回り込み*/
 	margin-right: 20px;	/*右側に空けるスペース*/
 }
 /*アイコン１個あたりの設定*/
@@ -732,6 +732,24 @@ h6 {
 }
 
 .fab {
-	font-size: 25px;
+	font-size: 40px;
 	padding: 0 7px;
+}
+
+#icon {
+	height: 50px;
+	padding-top: 1%;
+	background-color: black;
+}
+
+.fa-facebook {
+	color: #3b5998;
+}
+
+.fa-twitter-square {
+	color: #00acee;
+}
+
+.fa-line {
+	color: #06c755;
 }
