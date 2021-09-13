@@ -46,27 +46,18 @@
 
 <section>
 
-<h2>お問い合わせ</h2>
-
-<table class="ta1">
-<tr>
-<th>お名前※</th>
-<td><input type="text" name="お名前" size="30" class="ws"></td>
-</tr>
-<tr>
-<th>メールアドレス※</th>
-<td><input type="text" name="メールアドレス" size="30" class="ws"></td>
-</tr>
-<tr>
-<th>お問い合わせ詳細※</th>
-<td><textarea name="お問い合わせ詳細" cols="30" rows="10" class="wl"></textarea></td>
-</tr>
-</table>
-
-<p class="c">
-<input type="submit" value="内容を確認する" class="btn">
-</p>
-
+	<form action="https://api.staticforms.xyz/submit" method="post">
+		<input type="text" name="name" placeholder="Your Name"><br>
+		<input type="text" name="email" placeholder="Your Email"><br>
+		<textarea name="message"></textarea>
+		<input type="text" name="honeypot" style="display:none"><br>
+		<input type="hidden" name="accessKey" value="15018912-a749-4f5c-9ba3-c8445c3359e9"><br>
+		<input type="hidden" name="subject" value="Contact us from - example.com"><br>
+		<input type="hidden" name="replyTo" value="@"><br>
+		<input type="hidden" name="redirectTo" value="https://tsk-life-web.web.app/finish.html"><br>
+		<input type="submit" value="Submit">
+	</form>
+	
 </section>
 
 </div>
