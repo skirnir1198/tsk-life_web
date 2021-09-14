@@ -44,22 +44,20 @@
 
 <div id="contents">
 
-<section>
-
-	<form action="https://api.staticforms.xyz/submit" method="post">
-		<input type="text" name="name" placeholder="Your Name"><br>
-		<input type="text" name="email" placeholder="Your Email"><br>
-		<textarea name="message"></textarea>
-		<input type="text" name="honeypot" style="display:none"><br>
-		<input type="hidden" name="accessKey" value="15018912-a749-4f5c-9ba3-c8445c3359e9"><br>
-		<input type="hidden" name="subject" value="Contact us from - example.com"><br>
-		<input type="hidden" name="replyTo" value="@"><br>
-		<input type="hidden" name="redirectTo" value="https://tsk-life-web.web.app/finish.html"><br>
-		<input type="submit" value="Submit">
+	<form action="https://api.staticforms.xyz/submit" method="post" class="mail_form">
+		<table class="form_table">
+			<tr><th class="contact-item"><text>名前</text></th><td class="contact-body"><input type="text" name="name" placeholder="Your Name" class="mail_input"></td></tr>
+			<tr><th class="contact-item"><text>メール</text></th><td class="contact-body"><input type="text" name="email" placeholder="Your Email" class="mail_input"></td></tr>
+			<tr><th class="contact-item"><text>本文</text></th><td class="contact-body"><textarea name="message" class="mail_input" rows="6"></textarea></td></tr>
+		</table>
+		<input type="submit" value="送信" class="submit_btn">
+		<input type="text" name="honeypot" style="display:none">
+		<input type="hidden" name="accessKey" value="15018912-a749-4f5c-9ba3-c8445c3359e9">
+		<input type="hidden" name="subject" value="Contact us from - example.com">
+		<input type="hidden" name="replyTo" value="@">
+		<input type="hidden" name="redirectTo" value="https://tsk-life-web.web.app/finish.html">
 	</form>
 	
-</section>
-
 </div>
 <!--/#contents-->
 

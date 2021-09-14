@@ -753,3 +753,49 @@ h6 {
 .fa-line {
 	color: #06c755;
 }
+
+.mail_form {
+	background-color: rgb(190, 190, 190);
+	width: 70%;
+	margin: 0 auto;/*中央寄せ*/
+  padding: 60px 0;
+}
+
+.mail_form > table {
+	border: #000 1px solid;
+	margin: 0 auto;
+}
+
+.contact-item,
+.contact-body {
+    padding: 3%;
+    border: 1px solid #ccc;
+}
+
+.contact-item {
+    text-align: center;
+    width: 30%;
+    background-color: #eee;
+}
+
+.contact-body {
+    width: 70%;
+}
+
+.submit_btn {
+	display:block;
+  width:150px;
+  margin:30px auto 0;
+}
+
+.mail_input {
+	width: 90%;
+}
+
+.form_table {
+	width: 80%;
+}
+
+.form_table text {
+	font-size: 1.5vw;
+}
