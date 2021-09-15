@@ -43,12 +43,12 @@
 </header>
 
 <div id="contents">
-
+	<h2>お問い合わせ</h2>
 	<form action="https://api.staticforms.xyz/submit" method="post" class="mail_form">
 		<table class="form_table">
-			<tr><th class="contact-item"><text>名前</text></th><td class="contact-body"><input type="text" name="name" placeholder="Your Name" class="mail_input"></td></tr>
-			<tr><th class="contact-item"><text>メール</text></th><td class="contact-body"><input type="text" name="email" placeholder="Your Email" class="mail_input"></td></tr>
-			<tr><th class="contact-item"><text>本文</text></th><td class="contact-body"><textarea name="message" class="mail_input" rows="6"></textarea></td></tr>
+			<tr><th class="contact-item"><text>名前</text></th><td class="contact-body"><input type="name" name="name" placeholder="Your Name" class="name_input"></td></tr>
+			<tr><th class="contact-item"><text>メール</text></th><td class="contact-body"><input type="email" name="email" placeholder="Your Email" class="mail_input"></td></tr>
+			<tr><th class="contact-item"><text>本文</text></th><td class="contact-body"><textarea name="message" style="width: 90%;" rows="6"></textarea></td></tr>
 		</table>
 		<input type="submit" value="送信" class="submit_btn">
 		<input type="text" name="honeypot" style="display:none">

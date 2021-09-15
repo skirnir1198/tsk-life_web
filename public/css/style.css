@@ -756,8 +756,8 @@ h6 {
 
 .mail_form {
 	background-color: rgb(190, 190, 190);
-	width: 70%;
-	margin: 0 auto;/*中央寄せ*/
+	width: 100%;
+	margin: 50px auto;/*中央寄せ*/
   padding: 60px 0;
 }
 
@@ -788,14 +788,16 @@ h6 {
   margin:30px auto 0;
 }
 
-.mail_input {
-	width: 90%;
-}
-
 .form_table {
 	width: 80%;
+	max-width: 800px;
 }
 
 .form_table text {
 	font-size: 1.5vw;
+}
+
+.name_input, .mail_input {
+	width: 90%;
+	height: 3vw;
 }
