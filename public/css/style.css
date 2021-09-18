@@ -124,7 +124,6 @@ li:hover ul.ddmenu {
 /*アイコン全体を囲むブロック*/
 ul.icon {
 	float: center;	/*アイコンブロックを右に回り込み*/
-	margin-right: 20px;	/*右側に空けるスペース*/
 }
 /*アイコン１個あたりの設定*/
 ul.icon li {
@@ -293,6 +292,7 @@ footer .pr {display: block;}
 /*コピーライト
 ---------------------------------------------------------------------------*/
 #copyright {
+	padding-top: 20px;
 	clear: both;
 	text-align: center;
 	background: #000;	/*背景色*/
